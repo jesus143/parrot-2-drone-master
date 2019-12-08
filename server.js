@@ -68,7 +68,7 @@ function pngStreamVideo()
             process.now = (new Date()).getTime();
             if (process.now - process.lastFrameTime > process.period) {
 
-                console.log("count ", process.frameCounter);
+                // console.log("count ", process.frameCounter);
 
                 process.data.png = videoBuffer;
 

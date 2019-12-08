@@ -305,7 +305,7 @@
 
             socket.on('chanel.drone-image-frame', function (data) {
 
-                console.log(data);
+                //console.log(data);
 
                 _this.navDataHere = data.navdata;
                 // console.log(data);

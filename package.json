@@ -37,6 +37,7 @@
         "dronestream": "^1.1.1",
         "ffmpeg": "0.0.4",
         "file-system": "^2.2.2",
+        "node-bebop": "^0.6.0",
         "rimraf": "^3.0.0",
         "simple-debug": "~1.1.1"
     },

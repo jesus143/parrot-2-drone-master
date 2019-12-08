@@ -14,4 +14,8 @@ class DroneController extends Controller
     {
         return view("drone");
     }
+     public function serverVideo()
+    {
+        return view("server-video");
+    }
 }
