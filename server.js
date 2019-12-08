@@ -14,7 +14,7 @@
     process.frameCounter = 0;
 
     // This will be for the interval of the speed of data processing
-    process.period        = 10; // This will trigger how many seconds to wait, until the next data is being passed to controller
+    process.period        = 250; // This will trigger how many seconds to wait, until the next data is being passed to controller
     process.lastFrameTime = 0;
 
     // listen to 3000 port
@@ -22,7 +22,25 @@
 
     process.pngStopped = false;
 
-    process.pngStream = process.client.getPngStream();
+
+
+    var options = {};
+    options.timeout = 4000;
+
+
+    process.pngStream = process.client.getPngStream(options);
+
+
+
+    // process.client.droneStream(server, options)
+
+    //
+    // process.pngStream = new arDrone.Client.PngStream(
+    //     options
+    // );
+
+
+
 
     // turn on gps
     process.client.config('general:navdata_options', 777060865);
