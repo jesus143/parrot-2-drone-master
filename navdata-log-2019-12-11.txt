@@ -1,0 +1,585 @@
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 374 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.539 
+  rotY tfloat32: -4.16 
+  rotY tfloat32: -4.16 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 374 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.539 
+  rotY tfloat32: -4.16 
+  rotY tfloat32: -4.16 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.538 
+  rotY tfloat32: -4.159 
+  rotY tfloat32: -4.159 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.543 
+  rotY tfloat32: -4.157 
+  rotY tfloat32: -4.157 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.552 
+  rotY tfloat32: -4.155 
+  rotY tfloat32: -4.155 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.558 
+  rotY tfloat32: -4.154 
+  rotY tfloat32: -4.154 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 376 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.56 
+  rotY tfloat32: -4.157 
+  rotY tfloat32: -4.157 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.558 
+  rotY tfloat32: -4.157 
+  rotY tfloat32: -4.157 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.557 
+  rotY tfloat32: -4.156 
+  rotY tfloat32: -4.156 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 376 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.55 
+  rotY tfloat32: -4.154 
+  rotY tfloat32: -4.154 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 376 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.55 
+  rotY tfloat32: -4.155 
+  rotY tfloat32: -4.155 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.563 
+  rotY tfloat32: -4.154 
+  rotY tfloat32: -4.154 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.563 
+  rotY tfloat32: -4.154 
+  rotY tfloat32: -4.154 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.564 
+  rotY tfloat32: -4.155 
+  rotY tfloat32: -4.155 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.561 
+  rotY tfloat32: -4.152 
+  rotY tfloat32: -4.152 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 376 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.56 
+  rotY tfloat32: -4.151 
+  rotY tfloat32: -4.151 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.566 
+  rotY tfloat32: -4.151 
+  rotY tfloat32: -4.151 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.569 
+  rotY tfloat32: -4.155 
+  rotY tfloat32: -4.155 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.568 
+  rotY tfloat32: -4.154 
+  rotY tfloat32: -4.154 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.569 
+  rotY tfloat32: -4.154 
+  rotY tfloat32: -4.154 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.572 
+  rotY tfloat32: -4.154 
+  rotY tfloat32: -4.154 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 376 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.57 
+  rotY tfloat32: -4.156 
+  rotY tfloat32: -4.156 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.568 
+  rotY tfloat32: -4.164 
+  rotY tfloat32: -4.164 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.576 
+  rotY tfloat32: -4.163 
+  rotY tfloat32: -4.163 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.572 
+  rotY tfloat32: -4.164 
+  rotY tfloat32: -4.164 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.566 
+  rotY tfloat32: -4.161 
+  rotY tfloat32: -4.161 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 374 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.573 
+  rotY tfloat32: -4.16 
+  rotY tfloat32: -4.16 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.572 
+  rotY tfloat32: -4.163 
+  rotY tfloat32: -4.163 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 374 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.576 
+  rotY tfloat32: -4.16 
+  rotY tfloat32: -4.16 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.574 
+  rotY tfloat32: -4.161 
+  rotY tfloat32: -4.161 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.571 
+  rotY tfloat32: -4.165 
+  rotY tfloat32: -4.165 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:52 
+  rotX tfloat32:-1.569 
+  rotY tfloat32: -4.166 
+  rotY tfloat32: -4.166 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:51 
+  rotX tfloat32:-1.566 
+  rotY tfloat32: -4.168 
+  rotY tfloat32: -4.168 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 376 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:51 
+  rotX tfloat32:-1.57 
+  rotY tfloat32: -4.168 
+  rotY tfloat32: -4.168 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:51 
+  rotX tfloat32:-1.569 
+  rotY tfloat32: -4.169 
+  rotY tfloat32: -4.169 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:51 
+  rotX tfloat32:-1.568 
+  rotY tfloat32: -4.168 
+  rotY tfloat32: -4.168 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:51 
+  rotX tfloat32:-1.568 
+  rotY tfloat32: -4.168 
+  rotY tfloat32: -4.168 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:51 
+  rotX tfloat32:-1.573 
+  rotY tfloat32: -4.173 
+  rotY tfloat32: -4.173 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:51 
+  rotX tfloat32:-1.568 
+  rotY tfloat32: -4.171 
+  rotY tfloat32: -4.171 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:51 
+  rotX tfloat32:-1.567 
+  rotY tfloat32: -4.169 
+  rotY tfloat32: -4.169 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:51 
+  rotX tfloat32:-1.564 
+  rotY tfloat32: -4.168 
+  rotY tfloat32: -4.168 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:51 
+  rotX tfloat32:-1.559 
+  rotY tfloat32: -4.168 
+  rotY tfloat32: -4.168 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:51 
+  rotX tfloat32:-1.557 
+  rotY tfloat32: -4.165 
+  rotY tfloat32: -4.165 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:51 
+  rotX tfloat32:-1.567 
+  rotY tfloat32: -4.162 
+  rotY tfloat32: -4.162 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 
+ -------------------------
+ Title :DEAGGRIGATION
+ Size: 378 bytes 
+ Attribute :  header: 1432778632 
+  batteryPercent:51 
+  rotX tfloat32:-1.571 
+  rotY tfloat32: -4.163 
+  rotY tfloat32: -4.163 
+  altd tfloat32: 0 
+  vx tfloat32: 0 
+  vy float32: 0 
+  vz float32: 0 
+ 

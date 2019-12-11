@@ -113,99 +113,99 @@
             </div>
         </div>
           <div class="col-sm-6 room">
-            {{--<table class="table table-bordered table-striped">--}}
-              {{--<thead>--}}
-                {{--<tr>--}}
-                  {{--<th scope="col">NavData</th>--}}
-                  {{--<th scope="col">Type</th>--}}
-                  {{--<th scope="col">Description</th>--}}
-                {{--</tr>--}}
-              {{--</thead>--}}
-              {{--<tbody>--}}
-                {{--<tr> --}}
-                  {{--<td>@{{ navData.header }}</td>--}}
-                  {{--<td>Header</td>--}}
-                  {{--<td>ROS header</td>--}}
-                {{--</tr>   --}}
-                {{--<tr> --}}
-                  {{--<td>@{{ navData.demo.batteryPercentage }}</td>--}}
-                  {{--<td>float32</td>--}}
-                  {{--<td>0% to 100%</td>--}}
-                {{--</tr>  --}}
-                {{--<tr>--}}
-                  {{--<td>@{{ navData.demo.rotation.leftRight }}</td>--}}
-                  {{--<td>float32</td>--}}
-                  {{--<td>left/right tilt</td>--}}
-                {{--</tr>   --}}
-                {{--<tr> --}}
-                  {{--<td>@{{ navData.demo.rotation.frontBack }}</td>--}}
-                  {{--<td>float32</td>--}}
-                  {{--<td>forward/backward tilt</td>--}}
-                {{--</tr>   --}}
-                {{--<tr> --}}
-                  {{--<td>rotZ</td>--}}
-                  {{--<td>float32</td>--}}
-                  {{--<td>orientation, yaw</td>--}}
-                {{--</tr>   --}}
-                {{--<tr> --}}
-                  {{--<td>@{{ navData.demo.altitude }}</td>--}}
-                  {{--<td>float32</td>--}}
-                  {{--<td>estimated altitude</td>--}}
-                {{--</tr>   --}}
-                {{--<tr> --}}
-                  {{--<td>@{{ navData.demo.xVelocity }}</td>--}}
-                  {{--<td>float32</td>--}}
-                  {{--<td>linear x velocity</td>--}}
-                {{--</tr>       --}}
-                {{--<tr> --}}
-                  {{--<td>@{{ navData.demo.yVelocity }}</td>--}}
-                  {{--<td>float32</td>--}}
-                  {{--<td>linear y velocity</td>--}}
-                {{--</tr>   --}}
-                {{--<tr> --}}
-                  {{--<td>@{{ navData.demo.zVelocity }}</td>--}}
-                  {{--<td>float32</td>--}}
-                  {{--<td>linear z velocity</td>--}}
-                {{--</tr>   --}}
-                {{--<tr> --}}
-                  {{--<td>accx</td>--}}
-                  {{--<td>float32</td>--}}
-                  {{--<td>body x acceleration</td>--}}
-                {{--</tr>   --}}
-                {{--<tr> --}}
-                  {{--<td>accy</td>--}}
-                  {{--<td>float32</td>--}}
-                  {{--<td>body y acceleration</td>--}}
-                {{--</tr>   --}}
-                {{--<tr> --}}
-                  {{--<td>accz</td>--}}
-                  {{--<td>float32</td>--}}
-                  {{--<td>body z acceleration</td>--}}
-                {{--</tr>   --}}
-                {{--<tr> --}}
-                  {{--<td>gyrox</td>--}}
-                  {{--<td>float32</td>--}}
-                  {{--<td>angle rate about x axis</td>--}}
-                {{--</tr>   --}}
-                {{--<tr> --}}
-                  {{--<td>gyroy</td>--}}
-                  {{--<td>float32</td>--}}
-                  {{--<td>angle rate about y axis</td>--}}
-                {{--</tr>   --}}
-                {{--<tr> --}}
-                  {{--<td>gyroz</td>--}}
-                  {{--<td>float32</td>--}}
-                  {{--<td>angle rate about x axis</td>--}}
-                {{--</tr>   --}}
-                {{--<tr> --}}
-                  {{--<td>tm</td>--}}
-                  {{--<td>float32</td>--}}
-                  {{--<td>time stamp from ardrone</td>--}}
-                {{--</tr>   --}}
-              {{--</tbody>--}}
-            {{--</table>--}}
-            {{----}}
-            {{----}}
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">NavData</th>
+                  <th scope="col">Type</th>
+                  <th scope="col">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>@{{ navData.header }}</td>
+                  <td>Header</td>
+                  <td>ROS header</td>
+                </tr>
+                <tr>
+                  <td>@{{ navData.demo.batteryPercentage }}</td>
+                  <td>float32</td>
+                  <td>0% to 100%</td>
+                </tr>
+                <tr>
+                  <td>@{{ navData.demo.rotation.leftRight }}</td>
+                  <td>float32</td>
+                  <td>left/right tilt</td>
+                </tr>
+                <tr>
+                  <td>@{{ navData.demo.rotation.frontBack }}</td>
+                  <td>float32</td>
+                  <td>forward/backward tilt</td>
+                </tr>
+                <tr>
+                  <td>rotZ</td>
+                  <td>float32</td>
+                  <td>orientation, yaw</td>
+                </tr>
+                <tr>
+                  <td>@{{ navData.demo.altitude }}</td>
+                  <td>float32</td>
+                  <td>estimated altitude</td>
+                </tr>
+                <tr>
+                  <td>@{{ navData.demo.xVelocity }}</td>
+                  <td>float32</td>
+                  <td>linear x velocity</td>
+                </tr>
+                <tr>
+                  <td>@{{ navData.demo.yVelocity }}</td>
+                  <td>float32</td>
+                  <td>linear y velocity</td>
+                </tr>
+                <tr>
+                  <td>@{{ navData.demo.zVelocity }}</td>
+                  <td>float32</td>
+                  <td>linear z velocity</td>
+                </tr>
+                <tr>
+                  <td>accx</td>
+                  <td>float32</td>
+                  <td>body x acceleration</td>
+                </tr>
+                <tr>
+                  <td>accy</td>
+                  <td>float32</td>
+                  <td>body y acceleration</td>
+                </tr>
+                <tr>
+                  <td>accz</td>
+                  <td>float32</td>
+                  <td>body z acceleration</td>
+                </tr>
+                <tr>
+                  <td>gyrox</td>
+                  <td>float32</td>
+                  <td>angle rate about x axis</td>
+                </tr>
+                <tr>
+                  <td>gyroy</td>
+                  <td>float32</td>
+                  <td>angle rate about y axis</td>
+                </tr>
+                <tr>
+                  <td>gyroz</td>
+                  <td>float32</td>
+                  <td>angle rate about x axis</td>
+                </tr>
+                <tr>
+                  <td>tm</td>
+                  <td>float32</td>
+                  <td>time stamp from ardrone</td>
+                </tr>
+              </tbody>
+            </table>
+
+
 
 
               <pre>
@@ -251,7 +251,7 @@
   </script>
 
       <script>
-    var socket = io.connect('http://192.168.1.2:3000');
+    var socket = io.connect('http://192.168.1.3:3000');
 
     var app = new Vue({
         el: '#app',
@@ -311,6 +311,11 @@
                 // console.log(data);
 
 
+                console.log(data.png);
+
+
+
+
                 try {
                     var blob = new Blob([data.png], {type: "image/png"});
                     url = urlCreator.createObjectURL(blob);
@@ -324,7 +329,8 @@
 
             socket.on('chanel.drone-nav-data', function (data) {
 
-                _this.navDataHere = data;
+                console.log("navdate", data);
+                // _this.navDataHere = data;
             });
 
 

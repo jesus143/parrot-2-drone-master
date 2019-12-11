@@ -1,86 +1,171 @@
-
-// main();
-
-// function main() {
-    process.arDrone = require('ar-drone');
+var arDrone = require('ar-drone');
 
     // require('events').EventEmitter.prototype._maxListeners = 100;
 
-    process.client  = process.arDrone.createClient();
-    process.server  = require('http').Server();
-    process.io      = require('socket.io')(process.server);
+  var client  = arDrone.createClient();
+   var server  = require('http').Server();
+   var io      = require('socket.io')(server);
 
     // This will count how many frame are being passed
-    process.frameCounter = 0;
+    frameCounter = 0;
 
-    // This will be for the interval of the speed of data processing
-    process.period        = 250; // This will trigger how many seconds to wait, until the next data is being passed to controller
-    process.lastFrameTime = 0;
+    // This will be for the interval of the speed of data ng
+    period        = 250; // This will trigger how many seconds to wait, until the next data is being passed to controller
+    lastFrameTime = 0;
 
     // listen to 3000 port
-    process.server.listen(3000);
+    server.listen(3000);
 
-    process.pngStopped = false;
-
-
+    pngStopped = false;
 
     var options = {};
+
     options.timeout = 4000;
 
-
-    process.pngStream = process.client.getPngStream(options);
-
-
-
-    // process.client.droneStream(server, options)
-
+    var pngStream = client.getPngStream(options);
     //
-    // process.pngStream = new arDrone.Client.PngStream(
-    //     options
-    // );
-
-
-
-
     // turn on gps
-    process.client.config('general:navdata_options', 777060865);
+    client.config('general:navdata_options', 777060865);
 
     // data where the drone response stored
-    process.data = {};
+    data = {};
 
-    process.io.on('connection', function(socket) {
-        process.socket = socket;
+    console.log(" server started.. ");
 
-        pngStreamVideo();
-        initControl();
+    io.on('connection', function(socket) {
+        // socket = socket;
 
-        // client.on('event', data => { /* … */ });
-        // client.on('disconnect', () => { /* … */ });
+
+        console.log(" connected... ");
+        //
+        // pngStreamVideo();
+        // initControl();
+
+
+
+
+        pngStream
+            .on('data', function(videoBuffer) {
+
+
+                console.log(" video buffer .. ");
+
+                // adjust how many seconds in the interval
+                now = (new Date()).getTime();
+                if (now - lastFrameTime > period) {
+
+                    console.log("count ", frameCounter);
+
+                    // console.log(" png ", videoBuffer);
+
+                    console.log(videoBuffer);
+
+                    var myObjects;
+
+
+
+
+
+                    // videoBuffer.keys(myObjects).forEach(function (element, key, array) {
+                    //
+                    //
+                    //     // var data = o[key];
+                    //
+                    //
+                    //     console.log(" data ", key);
+                    // });
+
+
+
+                    data.png = videoBuffer;
+
+                    data.navdata = '';
+
+                    // console.log(" png ", videoBuffer);
+
+                    data.png = videoBuffer;
+
+                    data.navdata = '';
+
+                    socket.emit('chanel.drone-image-frame', data);
+
+
+                    clearTimeout(pngStopped);
+
+                    pngStopped = setTimeout(function(){
+                        console.log("video stoped, now restarting server");
+
+                    }, 1000);
+
+
+
+
+                    frameCounter++;
+
+                    lastFrameTime = now;
+                }
+            })
+            .on('end', function () {
+                console.log(" png end");
+            })
+            .on('stop', function () {
+                console.log(" png stop");
+            })
+            .on('drain', function () {
+                console.log(" png drain");
+            })
+            .on('exit', function () {
+                console.log(" png exit");
+            })
+            .on('connect', function () {
+                console.log(" png connect");
+            })
+            .on('timeout', function () {
+                console.log(" png connect");
+            })
+            .on('error', console.log);
+
+
+
+
+        socket.emit('chanel.drone-image-frame', data);
     });
-// }
 
-function pngStreamVideo()
-{
 
-    process.pngStream
+
+    //
+    function pngStreamVideo()
+    {
+
+    pngStream
         .on('data', function(videoBuffer) {
+
+
+            console.log(" video buffer .. ");
+
             // adjust how many seconds in the interval
-            process.now = (new Date()).getTime();
-            if (process.now - process.lastFrameTime > process.period) {
+            now = (new Date()).getTime();
+            if (now - lastFrameTime > period) {
 
-                // console.log("count ", process.frameCounter);
+                // console.log("count ", frameCounter);
 
-                process.data.png = videoBuffer;
 
-                process.data.navdata = '';
+
+                console.log(" png ", videoBuffer);
+
+
+
+                data.png = videoBuffer;
+
+                data.navdata = '';
 
                 pngStreamPassDataToFrontEnd();
 
                 pngStreamDetectStop();
 
-                process.frameCounter++;
+                frameCounter++;
 
-                process.lastFrameTime = process.now;
+                lastFrameTime = now;
             }
         })
         .on('end', function () {
@@ -102,72 +187,71 @@ function pngStreamVideo()
             console.log(" png connect");
         })
         .on('error', console.log);
-}
+    }
 
-function pngStreamPassDataToFrontEnd()
-{
-    process.socket.emit('chanel.drone-image-frame', process.data);
-}
+    function pngStreamPassDataToFrontEnd()
+    {
+        socket.emit('chanel.drone-image-frame', data);
+    }
 
-function pngStreamDetectStop()
-{
-    clearTimeout(process.pngStopped);
-
-    process.pngStopped = setTimeout(function(){
-        console.log("video stoped, now restarting server");
-
-    }, 1000);
-}
-
-function initControl() {
-    process.socket.on('chanel.drone-control', function (control) {
-        console.log(" new control triggered ", control);
-
-        if(control.action == 'left') {
-            console.log("left");
-            process.client.counterClockwise(0.5);
-        }
-        else if(control.action == 'right') {
-            process.client.clockwise(0.5);
-            console.log("right");
-        }
-        else if(control.action == 'down') {
-            console.log("down");
-            process.client.down(3)
-        }
-        else if(control.action == 'up') {
-            console.log("up");
-            process.client.up(3)
-        }
-        else if(control.action == 'back') {
-            console.log("back");
-            process.client.back(3)
-        }
-        else if(control.action == 'front') {
-            console.log("front");
-
-            process.client.front(3)
-        }
-        if(control.action == 'fly') {
-            console.log(" fly");
-
-            // client.takeoff();
-        }
-        else if(control.action == 'land') {
-            console.log(" landing");
-            process.client.stop();
-            process.client.land();
-        }
-        if(control.action == 'topvideo') {
-
-            console.log(" top video");
-            process.client.config('video:video_channel', 0);
-        } else if(control.action == 'bottomvideo') {
-
-            console.log(" bottom video");
-
-            process.client.config('video:video_channel', 3);
-        }
-    });
-}
-
+    // function pngStreamDetectStop()
+    // {
+    // clearTimeout(pngStopped);
+    //
+    // pngStopped = setTimeout(function(){
+    //     console.log("video stoped, now restarting server");
+    //
+    // }, 1000);
+    // }
+    //
+    // function initControl() {
+    // socket.on('chanel.drone-control', function (control) {
+    //     console.log(" new control triggered ", control);
+    //
+    //     if(control.action == 'left') {
+    //         console.log("left");
+    //         client.counterClockwise(0.5);
+    //     }
+    //     else if(control.action == 'right') {
+    //         client.clockwise(0.5);
+    //         console.log("right");
+    //     }
+    //     else if(control.action == 'down') {
+    //         console.log("down");
+    //         client.down(3)
+    //     }
+    //     else if(control.action == 'up') {
+    //         console.log("up");
+    //         client.up(3)
+    //     }
+    //     else if(control.action == 'back') {
+    //         console.log("back");
+    //         client.back(3)
+    //     }
+    //     else if(control.action == 'front') {
+    //         console.log("front");
+    //
+    //         client.front(3)
+    //     }
+    //     if(control.action == 'fly') {
+    //         console.log(" fly");
+    //
+    //         // client.takeoff();
+    //     }
+    //     else if(control.action == 'land') {
+    //         console.log(" landing");
+    //         client.stop();
+    //         client.land();
+    //     }
+    //     if(control.action == 'topvideo') {
+    //
+    //         console.log(" top video");
+    //         client.config('video:video_channel', 0);
+    //     } else if(control.action == 'bottomvideo') {
+    //
+    //         console.log(" bottom video");
+    //
+    //         client.config('video:video_channel', 3);
+    //     }
+    // });
+    // }

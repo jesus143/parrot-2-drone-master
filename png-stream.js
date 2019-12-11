@@ -19,6 +19,21 @@ pngStream
   .on('error', console.log)
   .on('data', function(pngBuffer) {
 
+
+
+
+
+
+      console.log(pngBuffer);
+
+
+
+
+
+
+
+
+
     console.log(" counter ", counter);
 
       counter++;
