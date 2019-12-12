@@ -42,18 +42,26 @@
                width:100%;
                height: 500px; 
           }
+
+          .center {
+
+              margin-top:20%;
+              margin-left: 20%;
+          }
+          .container1 {
+              padding: 0px;
+              width: 1301px !important;
+              margin: auto;
+          }
       </style>
   </head>
   <body>
-      <div class="container mt-2"  id="app">
+      <div class="container1 mt-2" style="padding: 0px"  id="app">
       <h4>DRONE MONITORING</h4>
 
       <div class="row">
-        <div class="col-sm-6 room">
-
-            <!-- <img class="img" src="/viewimage.jpg"> -->
-
-              <img class="img" :src="video_png" />
+        <div class="col-sm-6 room" >
+            <iframe class="center"  src="http://192.168.1.3:3000/" style="width: 100%;height: 100%; margin:auto 0px !important;"> </iframe>
         </div>
         <div class="col-sm-6 room">
             <div class="container">
@@ -204,29 +212,13 @@
                 </tr>
               </tbody>
             </table>
-
-
-
-
-              <pre>
-
-                  NAVDATA
-          @{{ navDataHere }}
       </pre>
         </div>
            <div class="col-sm-6 room" >
-
-               <div id="droneStream">
-                   video here
-               </div>
-
-
-
               <div class="mapouter">
                   <div class="gmap_canvas">
-
                       <h1> MAP </h1>
-<!--                       <iframe style="" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=iligan%20city%20philippines&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <!--  <iframe style="" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=iligan%20city%20philippines&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                       <a href="https://www.divi-discounts.com"></a> -->
                   </div>
                </div>
@@ -235,20 +227,9 @@
     </div>
 
 
-
-
-
-
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/vue.js"></script>
 <script src="/js/socket.io.js"></script>
-<script src="/js/nodecopter-client.js"></script>
-
-
-  <script>
-      // video canvas will auto-size to the DOM-node, or default to 640*360 if no size is set.
-      new NodecopterStream(document.getElementById("droneStream"));
-  </script>
 
       <script>
     var socket = io.connect('http://192.168.1.3:3000');
@@ -276,64 +257,11 @@
         mounted() {
             let _this = this;
 
-
-            var urlCreator = window.URL || window.webkitURL;
-
-
-            // mao ni ang ga accept sa server activity, katong gi pasa gikan sa socket io code: socket.emit('chanel.drone-nav-data', data);
-            // socket.on('chanel.drone-image-frame', function (data) {
-            //
-            //     console.log(data);
-            //     // gi pasa ang image path to a variable
-            //     _this.video_png = '/drone/img/frame-' + data.time + '.png';
-            //
-            //     // _this.navData = data.navData;
-            //     //
-            //     // console.log(data);
-            //
-            //     // force update client side para ma update ang ui sa website or mobile
-            //     _this.$forceUpdate();
-            // });
-              //
-              // socket.on('chanel.drone-navdata-demo', function (data) {
-              //
-              // });
-              // socket.on('chanel.drone-navdata-dronestate', function (data) {
-              //
-              // });
-
-
-            socket.on('chanel.drone-image-frame', function (data) {
-
-                //console.log(data);
-
-                _this.navDataHere = data.navdata;
-                // console.log(data);
-
-
-                console.log(data.png);
-
-
-
-
-                try {
-                    var blob = new Blob([data.png], {type: "image/png"});
-                    url = urlCreator.createObjectURL(blob);
-                } catch (e) {
-                    console.log(" Failed to handle video image")
-                }
-
-                _this.video_png = url;
-            });
-
-
             socket.on('chanel.drone-nav-data', function (data) {
-
                 console.log("navdate", data);
-                // _this.navDataHere = data;
+
+                _this.navData = data.navdata;
             });
-
-
         },
 
         methods: {
@@ -360,11 +288,4 @@
         }
     });
 </script>
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-   <!--  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>-->  </body>
 </html>

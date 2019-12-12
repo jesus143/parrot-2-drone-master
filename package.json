@@ -17,22 +17,23 @@
     },
     "main": "./index",
     "devDependencies": {
+        "axios": "^0.19",
         "cross-env": "^5.1",
+        "http": "0.0.0",
+        "ioredis": "^3.2.2",
+        "jshint": "2.3.0",
         "laravel-mix": "^4.0.7",
         "lodash": "^4.17.13",
         "resolve-url-loader": "^2.3.1",
         "sass": "^1.15.2",
         "sass-loader": "^7.1.0",
-        "utest": "0.0.6",
-        "urun": "0.0.6",
         "sinon": "1.4.2",
-        "jshint": "2.3.0",
-        "axios": "^0.19",
-        "http": "0.0.0",
-        "ioredis": "^3.2.2",
-        "socket.io": "^2.1.1"
+        "socket.io": "^2.3.0",
+        "urun": "0.0.6",
+        "utest": "0.0.6"
     },
     "dependencies": {
+        "bootstrap": "^4.4.1",
         "buffy": "0.0.4",
         "dronestream": "^1.1.1",
         "ffmpeg": "0.0.4",
@@ -40,7 +41,8 @@
         "node-bebop": "^0.6.0",
         "object-sizeof": "^1.5.2",
         "rimraf": "^3.0.0",
-        "simple-debug": "~1.1.1"
+        "simple-debug": "~1.1.1",
+        "vue": "^2.6.10"
     },
     "optionalDependencies": {},
     "engines": {
