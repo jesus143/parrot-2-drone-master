@@ -61,7 +61,7 @@
 
       <div class="row">
         <div class="col-sm-6 room" >
-            <iframe class="center"  src="http://192.168.1.3:3000/" style="width: 100%;height: 100%; margin:auto 0px !important;"> </iframe>
+            <iframe class="center"  src="http://localhost:3000/" style="width: 100%;height: 100%; margin:auto 0px !important;"> </iframe>
         </div>
         <div class="col-sm-6 room">
             <div class="container">
@@ -131,47 +131,47 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>@{{ navData.header }}</td>
+                  <td>@{{ aggregated.header }}</td>
                   <td>Header</td>
                   <td>ROS header</td>
                 </tr>
                 <tr>
-                  <td>@{{ navData.demo.batteryPercentage }}</td>
+                  <td>@{{ aggregated.batteryPercentage }}</td>
                   <td>float32</td>
                   <td>0% to 100%</td>
                 </tr>
                 <tr>
-                  <td>@{{ navData.demo.rotation.leftRight }}</td>
+                  <td>@{{ aggregated.leftRight }}</td>
                   <td>float32</td>
                   <td>left/right tilt</td>
                 </tr>
                 <tr>
-                  <td>@{{ navData.demo.rotation.frontBack }}</td>
+                  <td>@{{ aggregated.frontBack }}</td>
                   <td>float32</td>
                   <td>forward/backward tilt</td>
                 </tr>
                 <tr>
-                  <td>rotZ</td>
+                  <td>@{{ aggregated.yaw }}</td>
                   <td>float32</td>
                   <td>orientation, yaw</td>
                 </tr>
                 <tr>
-                  <td>@{{ navData.demo.altitude }}</td>
+                  <td>@{{ aggregated.altitude }}</td>
                   <td>float32</td>
                   <td>estimated altitude</td>
                 </tr>
                 <tr>
-                  <td>@{{ navData.demo.xVelocity }}</td>
+                  <td>@{{ aggregated.xVelocity }}</td>
                   <td>float32</td>
                   <td>linear x velocity</td>
                 </tr>
                 <tr>
-                  <td>@{{ navData.demo.yVelocity }}</td>
+                  <td>@{{  aggregated.yVelocity }}</td>
                   <td>float32</td>
                   <td>linear y velocity</td>
                 </tr>
                 <tr>
-                  <td>@{{ navData.demo.zVelocity }}</td>
+                  <td>@{{ aggregated.zVelocity }}</td>
                   <td>float32</td>
                   <td>linear z velocity</td>
                 </tr>
@@ -212,7 +212,7 @@
                 </tr>
               </tbody>
             </table>
-      </pre>
+
         </div>
            <div class="col-sm-6 room" >
               <div class="mapouter">
@@ -224,20 +224,22 @@
                </div>
            </div>
         </div>
+          {{--<pre>--}}
+              {{--@{{ navData }}--}}
+          {{--</pre>--}}
     </div>
 
 
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/vue.js"></script>
-<script src="/js/socket.io.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/vue.js"></script>
+    <script src="/js/socket.io.js"></script>
 
       <script>
-    var socket = io.connect('http://192.168.1.3:3000');
+    var socket = io.connect('http://192.168.1.2:3000');
 
     var app = new Vue({
         el: '#app',
         data: {
-
             navDataHere: {},
             navData: {
                 demo : {
@@ -252,21 +254,72 @@
             },
 
             video_png:'img/frame.png',
-        },
+
+            aggregated: {
+                header:0,
+                batteryPercentage:0,
+                leftRight:0,
+                frontBack:0,
+                yaw:0,
+                altitude:0,
+                yVelocity:0,
+                zVelocity:0,
+            },
+
+            deaggregate: {},
+
+            // aggregate
+            pocket:2
+
+    },
 
         mounted() {
             let _this = this;
 
             socket.on('chanel.drone-nav-data', function (data) {
-                console.log("navdate", data);
+                // console.log("navdate", data);
 
                 _this.navData = data.navdata;
+
+                _this.aggregated = _this.aggrateSocket(data.deaggregate);
             });
         },
 
         methods: {
-            greet: function(action) {
+            aggrateSocket(deaggregated) {
+                let _this = this;
 
+                let aggregated = {};
+
+                aggregated.header            =  _this.aggregateSocketCalculate(deaggregated.header);
+                aggregated.batteryPercentage =  _this.aggregateSocketCalculate(deaggregated.batteryPercentage);
+                aggregated.leftRight         =  _this.aggregateSocketCalculate(deaggregated.leftRight);
+                aggregated.frontBack         =  _this.aggregateSocketCalculate(deaggregated.frontBack);
+                aggregated.yaw               =  _this.aggregateSocketCalculate(deaggregated.yaw);
+                aggregated.altitude          =  _this.aggregateSocketCalculate(deaggregated.altitude);
+                aggregated.yVelocity         =  _this.aggregateSocketCalculate(deaggregated.yVelocity);
+                aggregated.zVelocity         =  _this.aggregateSocketCalculate(deaggregated.zVelocity);
+
+                return aggregated;
+            },
+
+             aggregateSocketCalculate(a) {
+                let _this = this;
+                let b = _this.pocket;
+                let c = 0;
+
+                 // if(a < b) {
+                 //     c = a;
+                 // } else if(a > b) {
+                 c = a * b;
+                 // } else {
+                 //     c = a;
+                 // }
+
+                return c;
+            },
+
+              greet: function(action) {
                 let isFly = false;
 
                 // console.log("|te" + control);
