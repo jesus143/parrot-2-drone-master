@@ -262,6 +262,7 @@
                 frontBack:0,
                 yaw:0,
                 altitude:0,
+                xVelocity:0,
                 yVelocity:0,
                 zVelocity:0,
             },
@@ -281,12 +282,14 @@
 
                 _this.navData = data.navdata;
 
-                _this.aggregated = _this.aggrateSocket(data.deaggregate);
+                _this.aggregated = _this.aggrateSocket(data.deaggregated);
             });
         },
 
         methods: {
             aggrateSocket(deaggregated) {
+                //console.log(deaggregated);
+
                 let _this = this;
 
                 let aggregated = {};
@@ -297,6 +300,7 @@
                 aggregated.frontBack         =  _this.aggregateSocketCalculate(deaggregated.frontBack);
                 aggregated.yaw               =  _this.aggregateSocketCalculate(deaggregated.yaw);
                 aggregated.altitude          =  _this.aggregateSocketCalculate(deaggregated.altitude);
+                aggregated.xVelocity         =  _this.aggregateSocketCalculate(deaggregated.xVelocity);
                 aggregated.yVelocity         =  _this.aggregateSocketCalculate(deaggregated.yVelocity);
                 aggregated.zVelocity         =  _this.aggregateSocketCalculate(deaggregated.zVelocity);
 

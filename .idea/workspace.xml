@@ -4,6 +4,7 @@
     <list default="true" id="f1a98b15-f95b-4d8d-ae9c-3c15e06221ea" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/drone-video.js" afterPath="$PROJECT_DIR$/drone-video.js" />
+      <change beforePath="$PROJECT_DIR$/navdata-log-2019-12-11.txt" afterPath="" />
       <change beforePath="$PROJECT_DIR$/resources/views/drone2.blade.php" afterPath="$PROJECT_DIR$/resources/views/drone2.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,134 +30,10 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4703125">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="drone-video.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/drone-video.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="430">
-                  <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="server-video.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/server-video.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/node_modules/ar-drone/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="14">
-                    <caret line="213" column="33" lean-forward="false" selection-start-line="213" selection-start-column="33" selection-end-line="213" selection-end-column="33" />
-                    <folding>
-                      <marker date="1377706362000" expanded="true" signature="2501:2531" ph="{...}" />
-                      <marker date="1377706362000" expanded="true" signature="2559:2598" ph="{...}" />
-                      <marker date="1377706362000" expanded="true" signature="6217:6513" ph="[...]" />
-                      <marker date="1377706362000" expanded="true" signature="6872:7219" ph="[...]" />
-                      <marker date="1377706362000" expanded="true" signature="8627:9233" ph="{...}" />
-                      <marker date="1377706362000" expanded="true" signature="8631:8967" ph="//..." />
-                      <marker date="1377706362000" expanded="true" signature="9109:9212" ph="//..." />
-                      <marker date="1377706362000" expanded="true" signature="9358:9450" ph="{...}" />
-                      <marker date="1377706362000" expanded="true" signature="9876:9960" ph="{...}" />
-                      <marker date="1377706362000" expanded="true" signature="9992:10060" ph="{...}" />
-                      <marker date="1377706362000" expanded="true" signature="10092:10158" ph="{...}" />
-                      <marker date="1377706362000" expanded="true" signature="10192:10256" ph="{...}" />
-                    </folding>
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="maskingFunctions.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/node_modules/ar-drone/lib/navdata/maskingFunctions.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/server.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="350">
-                  <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="save-video-stream.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/save-video-stream.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="952">
-                  <caret line="118" column="62" lean-forward="false" selection-start-line="118" selection-start-column="62" selection-end-line="118" selection-end-column="62" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="video.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/video.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="84">
-                  <caret line="6" column="100" lean-forward="false" selection-start-line="6" selection-start-column="100" selection-end-line="6" selection-end-column="100" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="drone2.blade.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/resources/views/drone2.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="584">
-                  <caret line="321" column="16" lean-forward="true" selection-start-line="321" selection-start-column="16" selection-end-line="321" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bootstrap.min.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>logWriteExtra</find>
-      <find>EAGGREGATED: Nav data - header</find>
-      <find>DEAGGREGATED: Nav data - visionFlag</find>
-      <find>DEAGGREGATED: Nav data - sequenceNumber</find>
-      <find>logSplit</find>
-      <find>logWrite</find>
-      <find>ar-drone</find>
       <find>body-parser</find>
       <find>dronestream</find>
       <find>express</find>
@@ -177,9 +54,16 @@
       <find>navdata_option</find>
       <find>general</find>
       <find>config</find>
-      <find>aggregated</find>
       <find>aggrateSocket</find>
+      <find>deaggrateSocket</find>
+      <find>aggregate</find>
+      <find>deaggregate</find>
       <find>aggregateSocketCalculate</find>
+      <find>logWrite</find>
+      <find>sizeof</find>
+      <find>linear x velocity</find>
+      <find>xVelocity</find>
+      <find>aggregated</find>
     </findStrings>
     <dirStrings>
       <dir>C:\laragon\www\drone\parrot-2-drone-master</dir>
@@ -206,11 +90,11 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/log-2019-12-11.txt" />
         <option value="$PROJECT_DIR$/server-data-split.js" />
-        <option value="$PROJECT_DIR$/navdata-log-2019-12-11.txt" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/public/css/bootstrap.min.js.map" />
         <option value="$PROJECT_DIR$/public/css/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/public/video.html" />
+        <option value="$PROJECT_DIR$/navdata-log-2019-12-11.txt" />
         <option value="$PROJECT_DIR$/drone-video.js" />
         <option value="$PROJECT_DIR$/resources/views/drone2.blade.php" />
       </list>
@@ -358,6 +242,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -370,7 +255,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,18 +304,18 @@
       <workItem from="1576000054537" duration="2804000" />
       <workItem from="1576027051502" duration="10137000" />
       <workItem from="1576176670071" duration="7595000" />
-      <workItem from="1576206689968" duration="4026000" />
+      <workItem from="1576206689968" duration="6823000" />
+      <workItem from="1576301345084" duration="81000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38787000" />
+    <option name="totallyTimeSpent" value="41665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-210" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10364583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -439,7 +323,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3528827" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3528827" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -540,7 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-378">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,7 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,7 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -638,7 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="8" column="49" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -646,7 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -654,20 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/object-sizeof/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navdata-log-2019-12-11.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="522" column="17" lean-forward="true" selection-start-line="522" selection-start-column="17" selection-end-line="522" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -685,32 +550,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server-data-split.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!block;n#pngStreamVideo#0" expanded="false" />
-            <element signature="n#!!block;n#pngStreamPassDataToFrontEnd#0" expanded="false" />
-            <element signature="n#!!block;n#pngStreamDetectStop#0" expanded="false" />
-            <element signature="n#!!block;n#initControl#0" expanded="false" />
-            <element signature="n#!!block;n#calculateSize#0" expanded="false" />
-            <element signature="n#!!block;n#logSplit#0" expanded="false" />
-            <element signature="n#!!block;n#logWriteActualValue#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/drone-assets/js/vue.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/dronestream/dist/drone-assets/js/bootstrap.min.map.js" />
     <entry file="file://$PROJECT_DIR$/public/css/bootstrap.min.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/bootstrap.min.js">
@@ -812,7 +661,7 @@
     <entry file="file://$PROJECT_DIR$/node_modules/ar-drone/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="14">
+          <first_editor relative-caret-position="2982">
             <caret line="213" column="33" lean-forward="false" selection-start-line="213" selection-start-column="33" selection-end-line="213" selection-end-column="33" />
             <folding>
               <marker date="1377706362000" expanded="true" signature="2501:2531" ph="{...}" />
@@ -843,15 +692,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="392">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/save-video-stream.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
+        <state relative-caret-position="1652">
           <caret line="118" column="62" lean-forward="false" selection-start-line="118" selection-start-column="62" selection-end-line="118" selection-end-column="62" />
           <folding />
         </state>
@@ -869,22 +718,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="288" column="12" lean-forward="false" selection-start-line="288" selection-start-column="12" selection-end-line="288" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/object-sizeof/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/drone2.blade.php">
+    <entry file="file://$PROJECT_DIR$/server-data-split.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="321" column="16" lean-forward="true" selection-start-line="321" selection-start-column="16" selection-end-line="321" selection-end-column="16" />
+        <state relative-caret-position="98">
+          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!block;n#pngStreamVideo#0" expanded="false" />
+            <element signature="n#!!block;n#pngStreamPassDataToFrontEnd#0" expanded="false" />
+            <element signature="n#!!block;n#pngStreamDetectStop#0" expanded="false" />
+            <element signature="n#!!block;n#initControl#0" expanded="false" />
+            <element signature="n#!!block;n#calculateSize#0" expanded="false" />
+            <element signature="n#!!block;n#logSplit#0" expanded="false" />
+            <element signature="n#!!block;n#logWriteActualValue#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navdata-log-2019-12-11.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="47" column="12" lean-forward="false" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/drone-video.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="129" column="21" lean-forward="true" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!block;n#initControl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/drone2.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="226" column="8" lean-forward="false" selection-start-line="226" selection-start-column="8" selection-end-line="228" selection-end-column="20" />
           <folding />
         </state>
       </provider>
