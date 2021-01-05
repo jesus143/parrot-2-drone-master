@@ -17,7 +17,7 @@
     },
     "main": "./index",
     "devDependencies": {
-        "axios": "^0.19",
+        "axios": "^0.21",
         "cross-env": "^5.1",
         "http": "0.0.0",
         "ioredis": "^3.2.2",
