@@ -21,7 +21,7 @@
         "cross-env": "^5.1",
         "http": "0.0.0",
         "ioredis": "^3.2.2",
-        "jshint": "2.3.0",
+        "jshint": "2.13.5",
         "laravel-mix": "^4.0.7",
         "lodash": "^4.17.13",
         "resolve-url-loader": "^2.3.1",
